@@ -1,38 +1,88 @@
-.App {
-  text-align: center;
+.header-color {
+  background: #f12711;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #f5af19, #f12711); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.landing-grid {
+ background: #f12711;  /* fallback for old browsers */
+ background: -webkit-linear-gradient(to left, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
+ background: linear-gradient(to left, #f5af19, #f12711); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ text-align: center;
+ height: 100vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.avatar-img {
+  height: 250px;
+  border-radius: 50%;
+  padding-top: 5px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.banner-text {
+  background-color: black;
+  opacity: .8;
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.banner-text h1 {
+  font-size: 66px;
+  font-weight: bold;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.banner-text hr {
+  border-top: 5px dotted white;
+  width: 50%;
+  margin: auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.banner-text p {
+  color: white;
+  font-size: 20px;
+  padding: 1em;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+
+.social-links i {
+  color: white;
+  font-size: 5em;
+  padding: 8px;
+  text-align: center;
+}
+
+.social-links i:hover {
+  color: #e0dbdb;
+}
+
+@media only screen and (max-width: 824px) {
+  .banner-text {
+    width: 90%;
   }
-  to {
-    transform: rotate(360deg);
+  .social-links {
+    width: 60%;
+  }
+
+  .banner-text h1 {
+    font-size: 58px;
+  }
+}
+
+@media only screen and (max-width: 671px) {
+  .banner-text {
+    width: 95%;
+  }
+   .social-links {
+    width: 80%;
+  }
+  .social-links i {
+    font-size: 4em;
   }
 }
