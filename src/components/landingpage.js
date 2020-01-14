@@ -34,7 +34,7 @@ class Landing extends Component {
               </a>
 
                {/* Stack Overflow */}
-              <a href="https://www.linkedin.com/in/tomhill991" rel="noopener noreferrer" target="_blank">
+              <a href="https://stackexchange.com/users/17397207/hillybob991" rel="noopener noreferrer" target="_blank">
                 <i class="fa fa-stack-overflow" aria-hidden="true"/>
               </a>
 
