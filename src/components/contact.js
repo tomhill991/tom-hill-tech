@@ -7,7 +7,7 @@ class Contact extends Component {
       <div className="contact-body">
         <Grid className="contact-grid">
          {/*half page in one cell*/}
-          <Cell col={6}>
+          <Cell col={6} phone={12} tablet={12}>
           <h2>Tom Hill</h2>
           <img
             src="https://cdn0.iconfinder.com/data/icons/user-pictures/100/supportmale-2-512.png"
@@ -19,7 +19,7 @@ class Contact extends Component {
           </p>
           </Cell>
           {/*half page in one cell*/}
-          <Cell col={6}>
+          <Cell col={6} phone={12} tablet={12}>
           <h2>Contact Me</h2>
           <hr/>
           <div className="contact-list">
@@ -32,7 +32,7 @@ class Contact extends Component {
 
               <ListItem className="contact-list-item">
                 <ListItemContent className="contact-list-content">
-                <i className="fa fa-envelope" aria-hidden="true"/>tom.hill991@gmail
+                <i className="fa fa-envelope" aria-hidden="true"/>tom.hill991@gmail.com
                 </ListItemContent>
               </ListItem>
 
