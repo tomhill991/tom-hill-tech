@@ -6,8 +6,9 @@ class Contact extends Component {
     return(
       <div className="contact-body">
         <Grid className="contact-grid">
-         {/*half page in one cell*/}
+         {/* half page in one cell*/}
           <Cell col={6} phone={12} tablet={12}>
+        {/* my bio*/}
           <h2>Tom Hill</h2>
           <img
             src="https://cdn0.iconfinder.com/data/icons/user-pictures/100/supportmale-2-512.png"
@@ -18,10 +19,11 @@ class Contact extends Component {
           I recently completed the Le Wagon fullstack 9-week coding bootcamp. I learnt HTML, CSS, Bootstrap, JavaScript ES2015, SQL, git, GitHub, Heroku and Ruby on Rails. Designed, implemented and shipped to production a clone of AirBnB and a Rails prototype of a WeChat mini-program called Rent a Jedi. My GitHub profile is <a href="https://github.com/tomhill991">here</a>
           </p>
           </Cell>
-          {/*half page in one cell*/}
+          {/* half page in one cell*/}
           <Cell col={6} phone={12} tablet={12}>
           <h2>Contact Me</h2>
           <hr/>
+          {/* contact list with number etc.*/}
           <div className="contact-list">
             <List>
               <ListItem className="contact-list-item">

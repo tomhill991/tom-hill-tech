@@ -22,7 +22,9 @@ class Resume extends Component {
             <h2>Tom Hill</h2>
             <h4 style={{color: 'grey'}}>Programmer</h4>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+            <p>I am an experienced business professional, seeking a transition into programming. I recently completed the Le Wagon fullstack 9-week coding bootcamp. I learnt HTML, CSS, Bootstrap, JavaScript ES2015, SQL, git, GitHub, Heroku and Ruby on Rails. Designed, implemented and shipped to production a clone of AirBnB and a Rails prototype of a WeChat mini-program called Rent a Jedi. My GitHub profile is <a href="https://github.com/tomhill991">here</a></p>
+            <br></br>
+            <p>I am looking for a role as a Rails & React developer.</p>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
             <h5>Address</h5>
             <p>Shanghai, China</p>
@@ -37,7 +39,7 @@ class Resume extends Component {
           <Cell className="resume-right-col" tablet={9} phone={12} col={7}>
             <h2 style={{paddingLeft: '12px'}}>Education</h2>
 
-
+          {/* education is rendered based on './education.js' */}
             <Education
               startYear={2019}
               endYear={2019}
@@ -62,6 +64,8 @@ class Resume extends Component {
                 <hr style={{borderTop: '3px solid #e22947'}} />
 
               <h2 style={{paddingLeft: '12px'}}>Experience</h2>
+
+            {/* experience is rendered based on './experience.js' */}
             <Experience
               startYear={2019}
               companyName="Plantopia"

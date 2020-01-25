@@ -6,6 +6,7 @@ class Education extends Component {
     return(
       <Grid>
         <Cell col={4}>
+        {/* render start year and end year if end year == true */}
           {this.props.endYear ? <p style={{marginBottom: '0px'}}>{this.props.startYear} - {this.props.endYear} </p> : <p style={{marginBottom: '0px'}}>{this.props.startYear}</p>}
         </Cell>
         <Cell col={8}>

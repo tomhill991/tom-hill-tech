@@ -16,7 +16,7 @@ class Landing extends Component {
           <div className="banner-text">
             <h1>Full Stack Web Developer</h1>
             <hr/>
-            <p>HTML/CSS | Bootstrap | JavaScript | React | ES6 | SQL | Ruby | Rails | NodeJS</p>
+            <p>Rails | React | HTML/CSS | Bootstrap | JavaScript | ES6 | SQL | Ruby | NodeJS</p>
             <div className="social-links">
               {/* GitHub */}
               <a href="https://github.com/tomhill991" rel="noopener noreferrer" target="_blank">
@@ -29,7 +29,7 @@ class Landing extends Component {
               </a>
 
               {/* Freecode Camp */}
-              <a href="https://www.linkedin.com/in/tomhill991" rel="noopener noreferrer" target="_blank">
+              <a href="https://www.freecodecamp.org/thill991" rel="noopener noreferrer" target="_blank">
                 <i class="fa fa-free-code-camp" aria-hidden="true"/>
               </a>
 

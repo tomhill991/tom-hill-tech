@@ -9,8 +9,9 @@ import Main from './components/main'
 function App() {
   return (
    <div className="demo-big-content">
+ {/* links are from react-router-dom and Navigation is from react-mdl*/}
     <Layout>
-        <Header className="header-color"title="MY PORTFOLIO" scroll>
+        <Header className="header-color" title="MY PORTFOLIO" scroll>
             <Navigation>
                 <Link to="/">Home</Link>
                 <Link to="/resume">Resume</Link>
